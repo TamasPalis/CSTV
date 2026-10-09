@@ -1,3 +1,5 @@
+https://github.com/TamasPalis/CSTV
+
 # Counter-Strike Hír és webshop oldal
 
 Nemzetközi Esport Szövetség megbízásából, Egy összekötő weboldal a legmagasabb szintű csapatoknak és versenyeknek. **Hírek, igazolások, Játék Frissítések**
