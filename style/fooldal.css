@@ -8,30 +8,34 @@ nav {
 
 .container {
     background-color: #667f99;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
 }
 
-.container>img {
-    width: 500px;
+.container > img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     display: block;
     margin: auto;
 }
 
-.container>h1, h2 {
+.container > h1,
+.container h2 {
     color: white;
     text-align: center;
 }
 
-.container> p {
-    color: white;
-
-}
-
-table, tr{
+.container > p {
     color: white;
 }
 
-.kislogo{
+table,
+tr {
+    color: white;
+}
+
+.kislogo {
     width: 35px;
     height: auto;
 }
