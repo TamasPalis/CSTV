@@ -1,0 +1,28 @@
+body {
+    background-color: #c3dcf9;
+}
+
+nav {
+    background-color: #2d3844;
+}
+
+.container {
+    background-color: #667f99;
+    width: 1000px;
+}
+
+.container>img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.container>h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+.container> p {
+    color: white;
+
+}
