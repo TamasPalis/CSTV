@@ -1,9 +1,16 @@
 body {
-    background-color: #c3dcf9;
+    background-color: #bddcff;
 }
 
 nav {
     background-color: #2d3844;
+}
+
+.navlogo {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    vertical-align: middle;
 }
 
 .container {
@@ -12,21 +19,28 @@ nav {
     max-width: 1000px;
 }
 
-.container > img {
+.container>img {
     width: 100%;
     max-width: 500px;
     height: auto;
     display: block;
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container > h1,
+.container h1 {
+    color: white;
+    text-align: center;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .container h2 {
     color: white;
     text-align: center;
 }
 
-.container > p {
+.container p {
     color: white;
 }
 
@@ -37,5 +51,16 @@ tr {
 
 .kislogo {
     width: 35px;
-    height: auto;
+    height: 35px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.table tbody tr {
+    height: 55px;
+}
+
+.table tbody td,
+.table tbody th {
+    vertical-align: middle;
 }
