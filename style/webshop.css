@@ -25,7 +25,9 @@ nav {
     height: auto;
     display: block;
     margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.2),
+        0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container h1,
@@ -127,8 +129,6 @@ main.container {
     border: none;
 }
 
-
-
 .card-body {
     display: flex;
     flex-direction: column;
@@ -186,4 +186,30 @@ main.container {
 
 .row {
     justify-content: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.card {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .container > .row {
+        margin-bottom: 0;
+    }
 }
