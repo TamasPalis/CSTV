@@ -1,0 +1,123 @@
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bddcff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav,
+footer {
+    background-color: #2d3844;
+    color: white;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.navlogo {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.container {
+    background-color: #667f99;
+    width: 100%;
+    max-width: 1000px;
+    flex: 1 0 auto;
+    padding-bottom: 20px;
+}
+
+.container>img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.2),
+        0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container h1,
+.container h5,
+.container h6 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    color: white;
+    text-align: center;
+}
+
+.container p {
+    color: white;
+}
+
+.table {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.table tbody tr {
+    height: 55px;
+}
+
+.table tbody td,
+.table tbody th {
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.jatekosok {
+    font-size: 14px;
+}
+
+.kislogo {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+footer {
+    margin-top: auto;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.kislogo {
+    width: 30px;
+    height: 30px;
+}
+
+.jatekosok {
+    font-size: 15px;
+}
+
+.table {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 13px;
+}

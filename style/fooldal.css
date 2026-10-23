@@ -64,3 +64,40 @@ tr {
 .table tbody th {
     vertical-align: middle;
 }
+
+
+
+
+
+
+.card {
+  background-color: #2d3844;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px auto;
+}
+
+.card img {
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 2px solid #667f99;
+}
+
+.card-body {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
