@@ -2,8 +2,11 @@ body {
     background-color: #bddcff;
 }
 
-nav {
+nav,
+footer {
     background-color: #2d3844;
+    color: white;
+    width: 100%;
 }
 
 .navlogo {
@@ -208,8 +211,18 @@ body {
     margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
-    .container > .row {
-        margin-bottom: 0;
-    }
+
+footer {
+    margin-top: auto;
+    padding: 15px 20px;
+    text-align: center;
 }
+
+footer p {
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 14px;
+}
+

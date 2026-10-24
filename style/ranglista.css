@@ -17,7 +17,7 @@ footer {
     background-color: #2d3844;
     color: white;
     width: 100%;
-    flex-shrink: 0;
+
 }
 
 .navlogo {
@@ -116,8 +116,4 @@ footer p {
 
 .table {
     font-size: 14px;
-}
-
-footer p {
-    font-size: 13px;
 }
