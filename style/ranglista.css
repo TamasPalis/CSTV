@@ -31,3 +31,19 @@
 .table {
     font-size: 14px;
 }
+
+
+.negativ {
+    font-size: 18px;
+    color: #f30000 !important;
+}
+
+.pozitiv {
+    font-size: 18px;
+    color: #16bb07 !important;
+}
+
+.semleges {
+    font-size: 18px;
+    color: rgb(156, 150, 150);
+}
