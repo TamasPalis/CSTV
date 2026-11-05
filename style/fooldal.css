@@ -1,4 +1,3 @@
-
 table,
 tr {
     color: white;
@@ -86,4 +85,21 @@ tr {
     z-index: 2;
     bottom: 18px;
     padding: 10px 25px;
+}
+
+.sponsor-grid {
+    max-width: 900px;
+    margin: 20px auto 0;
+}
+
+.sponsor-grid img {
+    width: 100%;
+    max-width: 140px;
+    height: 75px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.sponsor-grid a:hover img {
+    transform: scale(1.1);
 }

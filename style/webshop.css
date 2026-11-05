@@ -1,36 +1,4 @@
 .card {
-  background-color: #2d3844;
-  color: #fff;
-  border: none;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  width: 100%;
-  max-width: 250px;
-  margin: 10px auto;
-}
-
-.card img {
-  height: 150px;
-  object-fit: cover;
-  border-bottom: 2px solid #667f99;
-}
-
-.card-body {
-  height: auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.card:hover {
-  transform: scale(1.02);
-}
-
-.card {
     height: 100%;
     background-color: #2d3844;
     color: white;
@@ -38,7 +6,7 @@
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-bottom: 0;
+    margin: 0 auto;
 }
 
 .card:hover {
@@ -46,11 +14,10 @@
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
 
-
 .card-img-top {
     width: 100%;
     height: 220px;
-    object-fit: contain;
+    object-fit: cover;
     padding: 0;
     background-color: #2d3844;
     border: none;
@@ -70,13 +37,12 @@
 }
 
 .card-body p {
-    color: #ffffff;
+    color: white;
 }
 
 .card-body .fw-bold {
     line-height: 1.5;
 }
-
 
 .card-body s {
     color: #c5d0dc;
@@ -85,7 +51,6 @@
 .card-body p:has(s) {
     color: #b9dcff;
 }
-
 
 .btn-primary {
     margin-top: auto;
@@ -105,21 +70,8 @@
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:focus:active {
-    background-color: #52637a !important;
+    background-color: #52667a !important;
     border-color: #9dcfff !important;
     color: white !important;
     box-shadow: 0 0 0 0.2rem rgba(157, 207, 255, 0.2) !important;
 }
-
-.row {
-    justify-content: center;
-        margin-bottom: 0;
-}
-
-.container {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    overflow: hidden;
-}
-
-
