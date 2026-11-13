@@ -36,7 +36,7 @@ footer {
 }
 
 .container h1,
-.container h5,
+.container .kisszoveg,
 .container h6 {
     color: white;
     text-align: center;
@@ -50,6 +50,17 @@ footer {
 
 .container p {
     color: white;
+}
+
+.kisszoveg {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+footer p.kisszoveg {
+    font-size: 20px;
 }
 
 .kislogo {
